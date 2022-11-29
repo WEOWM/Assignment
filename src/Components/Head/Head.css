@@ -1,0 +1,114 @@
+.head{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: fixed;
+    z-index: 1000;
+   
+    
+    
+    
+}
+
+.left-head {
+    width: 33.3%;
+    height: 5rem;
+  
+}
+.right-head {
+    width: 33.5%;
+    height: 5rem;
+}
+.center-head {
+    width: 33.3%;
+    height: 5rem;
+}
+
+
+.com-nav-bar{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: 'black';
+}
+.com-nav-bar li{
+    list-style: none;
+}
+.com-nav-bar a{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    border-radius: 19px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+
+}
+.fa-solid{
+    cursor: pointer;
+}
+
+.mobile-head{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(122, 97, 72) ;
+}
+.mob-logo{
+   
+    width: 50%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
+.mob-nav{
+    width: 50%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+   
+}
+.offcanvas-body{
+    gap: 2rem;
+    background-color:rgb(122, 97, 72) ;
+}
+.offcanvas-body li{
+    list-style: none;
+
+}
+.offcanvas-body a{
+    text-decoration: none;
+    color: black;
+    
+    
+}
+.offcanvas-header{
+    background-color:rgb(122, 97, 72) ;
+}
+
+
+
+@media screen and (max-width:992px) {
+    .head{
+        display: none;
+    }
+    
+}
+@media screen  and (min-width:992px){
+    .mobile-head{
+        display: none;
+    }
+    
+}
+
+

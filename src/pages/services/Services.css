@@ -1,0 +1,21 @@
+
+.right {
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+@media screen  and (max-width:992px){
+    .computer-screen{
+        display: none;
+    }
+
+}
+
+@media screen  and (min-width:912px){
+    .mobile-screen{
+        display: none;
+    }
+    
+}
